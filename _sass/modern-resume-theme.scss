@@ -1,3 +1,4 @@
+@import "variables";
 @import "base";
 @import "button";
 @import "type";
@@ -67,7 +68,7 @@
 
     p {
       margin-bottom: 3px;
-      font-size: 1.6rem;
+      font-size: $paragraph-font-size;
       text-align: inherit;
       font-weight: 300;
 

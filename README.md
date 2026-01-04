@@ -84,7 +84,7 @@ content:
         link_text: Text for link (optional: without this link will show URL as link text)
         additional_links: (optional)
           - title: Link name
-            icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+            icon: Font Awesome brand icon name (eg. fab fa-github) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
             url: Link url (eg. https://google.com)
         quote: >
           Short overview or quote for the item
