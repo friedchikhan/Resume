@@ -58,9 +58,32 @@ content:
           - Designed and optimized SQL queries, pipelines, and dashboards.
           - Conducted research on EdTech, FinTech, and AI adoption.
 
+  - title: Research
+    layout: list
+    content:
+      - layout: left
+        title: "Simulating Clinical Teams: A Multi-Agent LLM Framework (KTAS Triage)"
+        sub_title: Lead Researcher / Co-Author · LUMS
+        caption: Lahore, Pakistan
+        description: |
+          **Medical AI — agentic emergency triage.** Co-authored work on an LLM-based **multi-agent** clinical framework using **LangGraph**, **LangChain**, and Gemini to simulate collaborative medical teams for Korean Triage and Acuity Scale (KTAS) prediction.
+
+          - Architected a **multi-agent** triage system with LangGraph state graphs and LangChain-style orchestration; parallel **adversarial** agent paths (safety-biased vs. resource-weighted) merged via a synthesis “Decider” node to address the triage safety–efficiency tradeoff.
+          - Achieved **83% Top-2** KTAS accuracy and **6% under-triage**; validated with Weighted Kappa (~0.70) and high diagnostic similarity (~0.89) on **1,267** ED cases.
+          - Engineered clinical features (e.g., Shock Index), PCA analysis, and **S-PubMedBERT**-based semantic evaluation; enforced structured reasoning with **Pydantic** schemas across diagnostic vs. administrative steps.
+
   - title: Projects
     layout: list
     content:
+      - layout: left
+        title: AI-Powered Tutor Platform for LUMS
+        sub_title: AI, NLP, Python, React, Node.js, JavaScript
+        description: |
+          - Designed and integrated an AI-driven chatbot API with **memory context** for session queries, study guidance, and automated responses.
+          - Enabled **adaptive learning** via contextual recall and intelligent suggestions in tutor–student conversations.
+          - Built a **real-time messaging** layer with **WebSockets** for seamless student–tutor communication.
+          - Delivered a **full-stack** stack: React frontend, Node.js API, **Oracle** for persistence.
+
       - layout: left
         title: IQueue - Virtual Queue & Appointment System
         sub_title: React Native, Node.js, Firebase
@@ -68,6 +91,7 @@ content:
         description: |
           - Developing a fintech-integrated virtual queuing platform for the Pakistani market.
           - Implemented real-time notifications and secure payment handling.
+
       - layout: left
         title: Classification of Urdu News Articles
         sub_title: Python, NLP, ML
@@ -78,8 +102,14 @@ content:
     layout: text
     content: |
       **Front-End:** React.js, React Native, HTML, CSS, JS/TS
-      **Back-End:** Python, Java, C/C++, MongoDB, Oracle
-      **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace
+
+      **Back-End:** Python, Java, C/C++, Node.js, MongoDB, Oracle
+
+      **AI / NLP / Agents:** LangChain, LangGraph, multi-agent workflows, RAG, WebSockets (real-time), HuggingFace
+
+      **Deep Learning & Implementation:** GANs (built from scratch), denoising and bottleneck **autoencoders**, custom **gradient-based optimizers**, **PixelCNNs** (autoregressive image modeling), **transformers** for sequence modeling, OpenAI **CLIP** (vision–language)
+
+      **Libraries & Tools:** Pandas, NumPy, TensorFlow, PyTorch, Pydantic, PCA, S-PubMedBERT (as used in research)
 
   - title: A Little More About Me
     layout: text
