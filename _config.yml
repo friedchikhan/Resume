@@ -1,53 +1,46 @@
 # Site
-repository: friedchikan/Resume # Update this if your repo name is different
-# favicon: images/favicon.ico
+repository: friedchikan/Resume
+baseurl: "/Resume"
+url: "https://friedchikan.github.io"
 
 # Personal info
-[cite_start]name: Muhammad Faizan Ali Khan [cite: 23]
-[cite_start]title: Senior Computer Science Student [cite: 27]
-[cite_start]email: faizanalikhan10@outlook.com [cite: 24]
-[cite_start]phone: "+92 3035561222" [cite: 24]
+name: Muhammad Faizan Ali Khan
+title: Senior Computer Science Student
+email: faizanalikhan10@outlook.com
+phone: "+92 3035561222"
 
-# Dark Mode (true/false/never)
+# Dark Mode
 darkmode: true
 
 # Additional icon links
 additional_links:
 - title: LinkedIn
   icon: fa-linkedin
-  [cite_start]url: https://linkedin.com/in/m-faizanalikhan [cite: 24]
+  url: https://linkedin.com/in/m-faizanalikhan
 - title: GitHub
   icon: fa-github
-  [cite_start]url: https://github.com/friedchikan [cite: 24]
+  url: https://github.com/friedchikan
 
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  I am a senior Computer Science student at **LUMS** [cite: 26, 27] with a focus on **Software Engineering and AI/ML**[cite: 12]. I have a proven track record of developing end-to-end solutions, from AI-powered chatbots to complex virtual queuing systems[cite: 33, 44].
+  I am a senior Computer Science student at **LUMS** with a focus on **Software Engineering and AI/ML**[cite: 26, 27]. I have experience developing end-to-end solutions, from AI-powered chatbots to complex virtual queuing systems[cite: 33, 44].
   
-  [cite_start]Currently, I am looking to leverage my technical background to transition into **Agile Management and Scrum Master roles**[cite: 12].
+  Currently, I am looking to leverage my technical background to transition into **Agile Management and Scrum Master roles**.
 
-# Projects Section
-# (Note: For this specific theme, project details usually go in a separate _data/projects.yml file, 
-# but if the theme uses this config, you can list them here.)
-
-# More Section (Skills & Interests)
+# More Section
 more_title: Skills & Interests
 more_content: |
-  ### Technical Skills [cite: 14]
-  - **Languages:** Python, Java, C/C++, SQL (Oracle), JS/TS [cite: 54, 55]
-  - **Frameworks:** React.js, React Native, Node.js, FastAPI, LangChain [cite: 33, 54]
-  - **Libraries:** TensorFlow, PyTorch, Pandas, NumPy [cite: 56]
+  ### Technical Skills
+  - **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]
+  - **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]
+  - **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]
   
-  ### Interests [cite: 58]
+  ### Interests
   - [cite_start]Learning **German** [cite: 61]
-  - [cite_start]Leadership and decision-making [cite: 59]
-
-# Footer
-footer_show_references: true
+  - [cite_start]Leadership and decision-making from projects [cite: 59]
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
-
 plugins:
  - jekyll-seo-tag
