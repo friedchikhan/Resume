@@ -20,15 +20,6 @@ darkmode: true
 github_username: friedchikhan
 linkedin_username: m-faizanalikhan
 
-# Additional icon links
-additional_links:
-  - title: GitHub
-    icon: fab fa-github
-    url: https://github.com/friedchikhan/
-  - title: LinkedIn
-    icon: fab fa-linkedin
-    url: https://www.linkedin.com/in/m-faizanalikhan/
-
 # About Section
 about_title: Professional Summary
 about_profile_image: images/profile.jpg
