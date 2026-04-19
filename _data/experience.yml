@@ -3,15 +3,15 @@
   duration: Summer 2025
   location: Lahore, Pakistan
   description: 
-    - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB and a ReAct agent for hybrid query handling.
-    - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing.
-    - Developed Python pipelines to extract, structure, and validate financial data.
+    - [cite_start]Built a FastAPI + LangChain RAG chatbot integrated with MongoDB and a ReAct agent[cite: 33].
+    - [cite_start]Designed YAML workflows for CrewAI multi-agent system to automate financial auditing[cite: 34].
+    - [cite_start]Developed Python pipelines to extract, structure, and validate financial data[cite: 35].
 
 - company: Blutech Consulting
   position: Data Analyst Intern
   duration: 2025
   location: Lahore, Pakistan
   description: 
-    - Designed and optimized SQL queries, pipelines, and dashboards to support data-driven insights.
-    - Conducted research on EdTech, HealthTech, and FinTech with a focus on AI/ML adoption.
-    - Mapped strategies for innovation using R&D and open-source tools.
+    - [cite_start]Designed and optimized SQL queries, pipelines, and dashboards to support data-driven insights[cite: 40].
+    - [cite_start]Conducted research on EdTech, HealthTech, and FinTech with a focus on AI/ML adoption[cite: 41].
+    - [cite_start]Mapped strategies for innovation using R&D and open-source tools[cite: 42].
