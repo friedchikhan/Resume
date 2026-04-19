@@ -17,14 +17,14 @@ website: https://linkedin.com/in/m-faizanalikhan
 darkmode: true
 
 # Social links
-github_username: friedchikan
+github_username: friedchikhan
 linkedin_username: m-faizanalikhan
 
 # Additional icon links
 additional_links:
   - title: GitHub
     icon: fab fa-github
-    url: https://github.com/friedchikan
+    url: https://github.com/friedchikhan
   - title: LinkedIn
     icon: fab fa-linkedin
     url: https://linkedin.com/in/m-faizanalikhan
@@ -33,9 +33,7 @@ additional_links:
 about_title: Professional Summary
 about_profile_image: images/profile.jpg
 about_content: |
-  Senior Computer Science student at **LUMS** (8th Semester) with a strong technical background in AI/ML and Full-Stack Development[cite: 27]. 
-  
-  [cite_start]Experienced in building scalable solutions like **IQueue** and automated financial auditing tools[cite: 34, 44]. Currently transitioning into **Agile Management** with a focus on **Scrum Master** roles.
+  Senior Computer Science student at **LUMS** (8th Semester) with a strong technical background in AI/ML and Full-Stack Development[cite: 23, 27]. Experienced in building scalable solutions like **IQueue** and automated financial auditing tools[cite: 34, 44]. Currently transitioning into **Agile Management** with a focus on **Scrum Master** roles.
 
 content:
   - title: Education
@@ -43,26 +41,26 @@ content:
     content:
       - layout: top-right
         title: Lahore University of Management Sciences (LUMS)
-        sub_title: BS in Computer Science
-        caption: Expected 2026
+        [cite_start]sub_title: BS in Computer Science [cite: 26, 27]
+        [cite_start]caption: Expected 2026 [cite: 31]
         description: |
-          Senior, 8th Semester student[cite: 27]. Focused on Software Engineering, AI, and Data Science.
+          Senior, 8th Semester student[cite: 27]. Focused on Software Engineering, AI, and Data Science[cite: 12].
 
   - title: Professional Experience
     layout: list
     content:
       - layout: right
         title: NetSol Technologies
-        sub_title: AI/ML Intern
-        caption: Summer 2025
+        [cite_start]sub_title: AI/ML Intern [cite: 29, 30]
+        [cite_start]caption: Summer 2025 [cite: 32]
         description: |
           - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB[cite: 33].
           - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing[cite: 34].
           - Developed Python pipelines to extract, structure, and validate financial data[cite: 35].
       - layout: right
         title: Blutech Consulting
-        sub_title: Data Analyst Intern
-        caption: 2025
+        [cite_start]sub_title: Data Analyst Intern [cite: 36, 37]
+        [cite_start]caption: 2025 [cite: 39]
         description: |
           - Designed and optimized SQL queries, pipelines, and dashboards[cite: 40].
           - Conducted research on EdTech, FinTech, and AI adoption in Pakistan and the Gulf[cite: 41].
@@ -72,28 +70,27 @@ content:
     content:
       - layout: left
         title: IQueue - Virtual Queue & Appointment System
-        sub_title: React Native, Node.js, Firebase, MongoDB
+        [cite_start]sub_title: React Native, Node.js, Firebase, MongoDB [cite: 44, 45]
         caption: 2026
         description: |
-          - Developing a fintech-integrated virtual queuing platform for the Pakistani market[cite: 45].
-          - Features real-time notifications and secure payment handling[cite: 46].
+          - Developing a fintech-integrated virtual queuing platform for the Pakistani market featuring real-time notifications and secure payment handling[cite: 44, 46].
       - layout: left
         title: Urdu News Classification Pipeline
-        sub_title: Python, NLP, ML
+        [cite_start]sub_title: Python, NLP, ML [cite: 47]
         description: |
           - Scraped and processed 1,500+ Urdu news articles; achieved 91% accuracy[cite: 47, 48].
       - layout: left
         title: AI-Powered Tutor Platform for LUMS
-        sub_title: AI, NLP, React, Node.js, Oracle
+        [cite_start]sub_title: AI, NLP, React, Node.js, Oracle [cite: 51]
         description: |
           - Developed an AI chatbot with contextual memory and real-time WebSocket messaging[cite: 51, 52].
 
   - title: Technical Skills
     layout: text
     content: |
-      **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]
-      **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]
-      **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]
+      **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]  
+      **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]  
+      **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]  
       **Concepts:** Machine Learning, NLP, Agile/Scrum, Data Structures [cite: 57]
 
   - title: Interests
