@@ -1,46 +1,130 @@
 # Site
 repository: friedchikan/Resume
-baseurl: "/Resume"
-url: "https://friedchikan.github.io"
+url: https://friedchikan.github.io
+baseurl: /Resume
+
+# Content configuration version
+version: 2
 
 # Personal info
 name: Muhammad Faizan Ali Khan
-title: Senior Computer Science Student
+title: Senior Computer Science Student | Aspiring Scrum Master
 email: faizanalikhan10@outlook.com
 phone: "+92 3035561222"
+website: https://linkedin.com/in/m-faizanalikhan
 
-# Dark Mode
+# Dark Mode (true/false/never)
 darkmode: true
+
+# Social links
+github_username: friedchikan
+linkedin_username: m-faizanalikhan
 
 # Additional icon links
 additional_links:
-- title: LinkedIn
-  icon: fa-linkedin
-  url: https://linkedin.com/in/m-faizanalikhan
-- title: GitHub
-  icon: fa-github
-  url: https://github.com/friedchikan
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/friedchikan
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://linkedin.com/in/m-faizanalikhan
 
 # About Section
+about_title: Professional Summary
 about_profile_image: images/profile.jpg
 about_content: |
-  I am a senior Computer Science student at **LUMS** with a focus on **Software Engineering and AI/ML**[cite: 26, 27]. I have experience developing end-to-end solutions, from AI-powered chatbots to complex virtual queuing systems[cite: 33, 44].
+  Senior Computer Science student at **LUMS** (8th Semester) with a strong technical background in AI/ML and Full-Stack Development[cite: 27]. 
   
-  Currently, I am looking to leverage my technical background to transition into **Agile Management and Scrum Master roles**.
+  [cite_start]Experienced in building scalable solutions like **IQueue** and automated financial auditing tools[cite: 34, 44]. Currently transitioning into **Agile Management** with a focus on **Scrum Master** roles.
 
-# More Section
-more_title: Skills & Interests
-more_content: |
-  ### Technical Skills
-  - **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]
-  - **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]
-  - **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]
-  
-  ### Interests
-  - [cite_start]Learning **German** [cite: 61]
-  - [cite_start]Leadership and decision-making from projects [cite: 59]
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: BS in Computer Science
+        caption: Expected 2026
+        description: |
+          Senior, 8th Semester student[cite: 27]. Focused on Software Engineering, AI, and Data Science.
+
+  - title: Professional Experience
+    layout: list
+    content:
+      - layout: right
+        title: NetSol Technologies
+        sub_title: AI/ML Intern
+        caption: Summer 2025
+        description: |
+          - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB[cite: 33].
+          - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing[cite: 34].
+          - Developed Python pipelines to extract, structure, and validate financial data[cite: 35].
+      - layout: right
+        title: Blutech Consulting
+        sub_title: Data Analyst Intern
+        caption: 2025
+        description: |
+          - Designed and optimized SQL queries, pipelines, and dashboards[cite: 40].
+          - Conducted research on EdTech, FinTech, and AI adoption in Pakistan and the Gulf[cite: 41].
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: IQueue - Virtual Queue & Appointment System
+        sub_title: React Native, Node.js, Firebase, MongoDB
+        caption: 2026
+        description: |
+          - Developing a fintech-integrated virtual queuing platform for the Pakistani market[cite: 45].
+          - Features real-time notifications and secure payment handling[cite: 46].
+      - layout: left
+        title: Urdu News Classification Pipeline
+        sub_title: Python, NLP, ML
+        description: |
+          - Scraped and processed 1,500+ Urdu news articles; achieved 91% accuracy[cite: 47, 48].
+      - layout: left
+        title: AI-Powered Tutor Platform for LUMS
+        sub_title: AI, NLP, React, Node.js, Oracle
+        description: |
+          - Developed an AI chatbot with contextual memory and real-time WebSocket messaging[cite: 51, 52].
+
+  - title: Technical Skills
+    layout: text
+    content: |
+      **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]
+      **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]
+      **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]
+      **Concepts:** Machine Learning, NLP, Agile/Scrum, Data Structures [cite: 57]
+
+  - title: Interests
+    layout: text
+    content: |
+      - Learning **German** as a new language[cite: 61].
+      - Leadership and decision-making from project management[cite: 59].
+
+# Footer
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
