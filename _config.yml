@@ -1,109 +1,215 @@
 # Site
-repository: friedchikhan/Resume
-url: https://friedchikhan.github.io
-baseurl: /Resume
+repository: Abdullah-Aseeef/muhammad_abdullah_resume
+url: https://abdullah-aseeef.github.io
+baseurl: /muhammad_abdullah_resume
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Muhammad Faizan Ali Khan
-title: Senior Computer Science Student | Aspiring Scrum Master
-email: faizanalikhan10@outlook.com
-phone: "+92 3035561222"
-website: https://linkedin.com/in/m-faizanalikhan
+name: Muhammad Abdullah
+title: BS Computer Science Student | Software Engineering & AI
+email: mabullah20@gmail.com
+# email_title: Email (Email title override)
+phone: (+92) 311 4438731
+# phone_title: Phone (Phone title override)
+website: https://www.linkedin.com/in/muhammad-abdullah-lums/
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-github_username: friedchikhan
-linkedin_username: m-faizanalikhan
+github_username: abdullah-aseeef
+linkedin_username: muhammad-abdullah-lums
 
 # Additional icon links
 additional_links:
   - title: GitHub
     icon: fab fa-github
-    url: https://github.com/friedchikhan
+    url: https://github.com/abdullah-aseeef/
   - title: LinkedIn
     icon: fab fa-linkedin
-    url: https://linkedin.com/in/m-faizanalikhan
+    url: https://www.linkedin.com/in/muhammad-abdullah-lums/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
 about_title: Professional Summary
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: |
-  Senior Computer Science student at **LUMS** (8th Semester) with a strong technical background in AI/ML and Full-Stack Development[cite: 23, 27]. Experienced in building scalable solutions like **IQueue** and automated financial auditing tools[cite: 34, 44]. Currently transitioning into **Agile Management** with a focus on **Scrum Master** roles.
+  BS Computer Science student at LUMS (CGPA: 3.89) with experience as a Software Engineering Intern, AI Training Specialist, and Teaching Assistant across systems, networking, and advanced programming courses.
+
+  Strong background in full-stack development, machine learning, and computer vision, with projects spanning deep reinforcement learning, YOLO-based detection systems, and scalable SaaS platforms.
 
 content:
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Lahore University of Management Sciences (LUMS)
-        [cite_start]sub_title: BS in Computer Science [cite: 26, 27]
-        [cite_start]caption: Expected 2026 [cite: 31]
+        title: Lahore University of Management Sciences (LUMS), Lahore, Pakistan
+        sub_title: BSc in Computer Science (Expected May 2026)
+        caption: 2022 - Present
         description: |
-          Senior, 8th Semester student[cite: 27]. Focused on Software Engineering, AI, and Data Science[cite: 12].
+          CGPA: 3.89
+          Relevant Coursework: Dynamic Programming & Reinforcement Learning, Deep Learning, Distributed Systems, Operating Systems, Network Security, Data Structures & Algorithms, Network-Centric Computing
+      - layout: top-right
+        title: Lahore Grammar School JT, Lahore, Pakistan
+        sub_title: A Levels (Further Math, Math, Physics, Chemistry)
+        caption: Aug 2020 - May 2022
+        description: |
+          Achieved 4 A* grades and received a 100% Merit Scholarship.
 
   - title: Professional Experience
     layout: list
     content:
       - layout: right
-        title: NetSol Technologies
-        [cite_start]sub_title: AI/ML Intern [cite: 29, 30]
-        [cite_start]caption: Summer 2025 [cite: 32]
+        title: Turing (Penguin)
+        sub_title: AI Training Specialist
+        caption: Sep 2025 - Dec 2025
         description: |
-          - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB[cite: 33].
-          - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing[cite: 34].
-          - Developed Python pipelines to extract, structure, and validate financial data[cite: 35].
+          - Designed and annotated complex multi-turn AI agent conversations across 10+ domains to train large language models.
+          - Authored structured system prompts incorporating conditional logic, examples, and edge-case handling for automation workflows.
+          - Conducted detailed QA on model outputs, identifying reasoning, tool-selection, and parameter-handling failures using standardized error taxonomies.
       - layout: right
-        title: Blutech Consulting
-        [cite_start]sub_title: Data Analyst Intern [cite: 36, 37]
-        [cite_start]caption: 2025 [cite: 39]
+        title: GoSaaS Labs
+        sub_title: Software Engineering Intern
+        caption: Jun 2025 - Jul 2025
+        link: https://github.com/varraichu/GoLogs
+        link_text: GoLogs Repository
         description: |
-          - Designed and optimized SQL queries, pipelines, and dashboards[cite: 40].
-          - Conducted research on EdTech, FinTech, and AI adoption in Pakistan and the Gulf[cite: 41].
+          - Containerized a production-grade Node.js + Oracle JET application using Docker, improving development reproducibility and deployment reliability.
+          - Implemented full-stack features including log export pipelines, configuration dashboards, and role-based access control.
+          - Worked in agile sprints with Git-based workflows, code reviews, and cross-functional collaboration.
+      - layout: right
+        title: LUMS
+        sub_title: Teaching Assistant (Operating Systems, Network Centric Computing, OOP, Advanced Programming)
+        caption: Aug 2024 - Present
+        description: |
+          - Served as Lead TA for Operating Systems PA1, mentoring students on kernel-level programming, interrupt handling, and device drivers.
+          - Supported 300+ students through weekly tutorials, extended office hours, and one-on-one debugging sessions.
+          - Conducted 75+ individual vivas evaluating OS design decisions, correctness, and low-level implementation details.
+          - Designed and delivered structured labs covering object-oriented design, inheritance, polymorphism, and systems-level abstractions.
+      - layout: right
+        title: LUMS Students' Math Society
+        sub_title: Vice President of Events
+        caption: Jun 2024 - Jun 2025
+        description: |
+          - Led execution of SIGMA 9, coordinating multiple sub-events and achieving record-breaking participation.
+          - Optimized internal workflows and cross-team coordination, improving execution efficiency and volunteer retention.
+      - layout: right
+        title: LUMS Students' Math Society
+        sub_title: Assistant Director of Events
+        caption: Jun 2023 - Jun 2024
+        description: |
+          - Organized the annual Integration Bee, doubling registrations and expanding participation beyond LUMS.
+          - Mentored junior organizers through weekly planning meetings and execution reviews.
+      - layout: right
+        title: Photomath
+        sub_title: Math Expert (Freelance)
+        caption: Jul 2022 - Jan 2024
+        description: |
+          - Solved and reviewed hundreds of advanced mathematics problems using LaTeX and GeoGebra.
+          - Delivered concise, structured explanations focused on conceptual clarity and student learning outcomes.
 
   - title: Projects
     layout: list
     content:
       - layout: left
-        title: IQueue - Virtual Queue & Appointment System
-        [cite_start]sub_title: React Native, Node.js, Firebase, MongoDB [cite: 44, 45]
-        caption: 2026
+        title: IQueue - Smart Queue Management Platform
+        sub_title: Docker, Docker Compose, Node.js, React, MongoDB, LangChain, Qdrant
+        caption: Sep 2025 - Present
+        link: https://iqueue-zeta.vercel.app
+        link_text: Live Demo
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/Abdul-Naafay/IQUEUE
         description: |
-          - Developing a fintech-integrated virtual queuing platform for the Pakistani market featuring real-time notifications and secure payment handling[cite: 44, 46].
+          - Built and containerized a production-ready full-stack MERN application using multi-service Docker Compose orchestration.
+          - Developed Retrieval-Augmented Generation (RAG) APIs for ingest/query workflows, using Gemini embeddings and Qdrant for semantic search over service data.
+          - Implemented an AI assistant agent workflow for grounded knowledge retrieval, integrating LLM-backed responses into backend APIs and customer-facing queue discovery flows.
+          - Designed RESTful backend integration and real-time queue features to support scalable operations for 10+ users.
       - layout: left
-        title: Urdu News Classification Pipeline
-        [cite_start]sub_title: Python, NLP, ML [cite: 47]
+        title: Optimizing Multi-Intersection Traffic Signal Control Using Deep Reinforcement Learning
+        caption: Nov 2025 - Dec 2025
+        link: https://github.com/abdulbaesit/traffic
+        link_text: GitHub
         description: |
-          - Scraped and processed 1,500+ Urdu news articles; achieved 91% accuracy[cite: 47, 48].
+          - Developed a Dueling Double DQN for coordinated multi-intersection traffic control in SUMO.
+          - Modeled a 117-dimensional state space and performed extensive hyperparameter tuning.
+          - Achieved a 98.3% reduction in average waiting time, 65% reduction in queue length, and 53% throughput improvement over fixed-time baselines.
       - layout: left
-        title: AI-Powered Tutor Platform for LUMS
-        [cite_start]sub_title: AI, NLP, React, Node.js, Oracle [cite: 51]
+        title: Trash Skimming Boat - Computer Vision System
+        caption: Mar 2025 - May 2025
+        link: https://github.com/Abdullah-Aseeef/trash_skimming_boat/
+        link_text: GitHub
         description: |
-          - Developed an AI chatbot with contextual memory and real-time WebSocket messaging[cite: 51, 52].
+          - Designed a YOLO-based object detection pipeline to identify floating plastic waste in waterways.
+          - Collected, annotated, and curated custom datasets to improve real-world detection robustness.
+          - Evaluated model performance under varying lighting and environmental conditions.
+      - layout: left
+        title: LUMScape - Interactive 3D Campus Map
+        sub_title: Unity, C#
+        caption: Jan 2025 - May 2025
+        link: https://lumscape.vercel.app
+        link_text: Live Demo
+        description: |
+          - Collaborated in a team of five to build a 3D interactive campus minimap for LUMS.
+          - Implemented UI components displaying live and upcoming campus events.
+          - Optimized navigation, camera controls, and scene rendering for usability and performance.
+      - layout: left
+        title: Classification of Urdu News Articles
+        caption: Oct 2024 - Dec 2024
+        description: |
+          - Scraped and preprocessed 1,200+ Urdu news articles using custom NLP pipelines.
+          - Trained neural network and Naive Bayes classifiers achieving up to 92% accuracy.
+          - Co-authored an ACM-style research paper documenting methodology, experiments, and results.
+
+  - title: Research Experience
+    layout: text
+    content: |
+      Co-authored an ACM-style research paper based on the **Classification of Urdu News Articles** project, covering dataset collection, NLP preprocessing pipeline design, model experimentation, and comparative evaluation of neural network and Naive Bayes approaches.
 
   - title: Technical Skills
     layout: text
     content: |
-      **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]  
-      **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]  
-      **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]  
-      **Concepts:** Machine Learning, NLP, Agile/Scrum, Data Structures [cite: 57]
+      **Languages & Frameworks:** Python, C++, JavaScript, Node.js, React  
+      **Machine Learning:** PyTorch, Deep Reinforcement Learning  
+      **Tools & DevOps:** Docker, Git, LaTeX
 
-  - title: Interests
+  - title: Awards & Honors
+    layout: list
+    content:
+      - layout: top
+        title: Dean's Honour List
+        caption: 2022 - Present
+      - layout: top
+        title: 100% Merit Scholarship, A-Levels
+        caption: 2020 - 2022
+
+  - title: A Little More About Me
     layout: text
     content: |
-      - Learning **German** as a new language[cite: 61].
-      - Leadership and decision-making from project management[cite: 59].
+      Outside academics and engineering, I enjoy creative and competitive hobbies.
+
+      I crochet and have made my own laptop sleeve and a Spider-Man car hanging. I also play table tennis and FIFA, and I enjoy watching shows in my downtime.
 
 # Footer
 footer_show_references: false
+# references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/modern-resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
