@@ -1,10 +1,17 @@
-# Experience template
-- layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of role
+- company: NetSol Technologies
+  position: AI/ML Intern
+  duration: Summer 2025
+  location: Lahore, Pakistan
+  description: 
+    - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB and a ReAct agent for hybrid query handling.
+    - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing.
+    - Developed Python pipelines to extract, structure, and validate financial data.
+
+- company: Blutech Consulting
+  position: Data Analyst Intern
+  duration: 2025
+  location: Lahore, Pakistan
+  description: 
+    - Designed and optimized SQL queries, pipelines, and dashboards to support data-driven insights.
+    - Conducted research on EdTech, HealthTech, and FinTech with a focus on AI/ML adoption.
+    - Mapped strategies for innovation using R&D and open-source tools.
