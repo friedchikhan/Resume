@@ -7,18 +7,18 @@ baseurl: /Resume
 version: 2
 
 # Personal info
-[cite_start]name: Muhammad Faizan Ali Khan [cite: 23]
-title: BS Computer Science Student | [cite_start]Aspiring Scrum Master [cite: 27]
-[cite_start]email: faizanalikhan10@outlook.com [cite: 24]
-[cite_start]phone: "+92 3035561222" [cite: 24]
-[cite_start]website: https://www.linkedin.com/in/m-faizanalikhan/ [cite: 24]
+name: Muhammad Faizan Ali Khan
+title: BS Computer Science Student | Aspiring Scrum Master
+email: faizanalikhan10@outlook.com
+phone: "+92 3035561222"
+website: https://www.linkedin.com/in/m-faizanalikhan/
 
 # Dark Mode
 darkmode: true
 
 # Social links
-[cite_start]github_username: friedchikhan [cite: 24]
-[cite_start]linkedin_username: m-faizanalikhan [cite: 24]
+github_username: friedchikhan
+linkedin_username: m-faizanalikhan
 
 # Additional icon links
 additional_links:
@@ -30,68 +30,68 @@ additional_links:
     url: https://www.linkedin.com/in/m-faizanalikhan/
 
 # About Section
-[cite_start]about_title: Professional Summary [cite: 12]
+about_title: Professional Summary
 about_profile_image: images/profile.jpg
 about_content: |
-  Senior Computer Science student at **LUMS** (8th Semester) with a focus on Software Engineering and AI/ML[cite: 26, 27]. Experienced in building scalable solutions like **IQueue** and automated financial auditing tools[cite: 34, 44]. 
-  
+  Senior Computer Science student at **LUMS** (8th Semester) with a focus on Software Engineering and AI/ML. Experienced in building scalable solutions like **IQueue** and automated financial auditing tools.
+
   Currently seeking to leverage a strong technical background to transition into **Agile Management** and **Scrum Master** roles.
 
 content:
-  - [cite_start]title: Education [cite: 13]
+  - title: Education
     layout: list
     content:
       - layout: top-right
-        [cite_start]title: Lahore University of Management Sciences (LUMS) [cite: 26]
-        [cite_start]sub_title: BS in Computer Science [cite: 27]
-        [cite_start]caption: Expected 2026 [cite: 31]
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: BS in Computer Science
+        caption: Expected 2026
         description: |
-          Senior, 8th Semester student[cite: 27]. Focus on Software Engineering, AI, and Data Science.
+          Senior, 8th Semester student. Focus on Software Engineering, AI, and Data Science.
 
-  - [cite_start]title: Professional Experience [cite: 16]
+  - title: Professional Experience
     layout: list
     content:
       - layout: right
-        [cite_start]title: NetSol Technologies [cite: 29]
-        [cite_start]sub_title: AI/ML Intern [cite: 30]
-        [cite_start]caption: Summer 2025 [cite: 32]
+        title: NetSol Technologies
+        sub_title: AI/ML Intern
+        caption: Summer 2025
         description: |
-          - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB[cite: 33].
-          - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing[cite: 34].
-          - Developed Python pipelines to extract, structure, and validate financial data[cite: 35].
+          - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB.
+          - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing.
+          - Developed Python pipelines to extract, structure, and validate financial data.
       - layout: right
-        [cite_start]title: Blutech Consulting [cite: 36]
-        [cite_start]sub_title: Data Analyst Intern [cite: 37]
-        [cite_start]caption: 2025 [cite: 39]
+        title: Blutech Consulting
+        sub_title: Data Analyst Intern
+        caption: "2025"
         description: |
-          - Designed and optimized SQL queries, pipelines, and dashboards[cite: 40].
-          - Conducted research on EdTech, FinTech, and AI adoption[cite: 41].
+          - Designed and optimized SQL queries, pipelines, and dashboards.
+          - Conducted research on EdTech, FinTech, and AI adoption.
 
-  - [cite_start]title: Projects [cite: 15]
+  - title: Projects
     layout: list
     content:
       - layout: left
-        [cite_start]title: IQueue - Virtual Queue & Appointment System [cite: 44]
-        [cite_start]sub_title: React Native, Node.js, Firebase [cite: 45]
+        title: IQueue - Virtual Queue & Appointment System
+        sub_title: React Native, Node.js, Firebase
         caption: Sep 2025 - Present
         description: |
-          - Developing a fintech-integrated virtual queuing platform for the Pakistani market[cite: 46].
-          - Implemented real-time notifications and secure payment handling[cite: 46].
+          - Developing a fintech-integrated virtual queuing platform for the Pakistani market.
+          - Implemented real-time notifications and secure payment handling.
       - layout: left
-        [cite_start]title: Classification of Urdu News Articles [cite: 47]
-        [cite_start]sub_title: Python, NLP, ML [cite: 47]
+        title: Classification of Urdu News Articles
+        sub_title: Python, NLP, ML
         description: |
-          - Scraped and processed 1,500+ Urdu news articles; achieved 91% accuracy[cite: 47, 48].
+          - Scraped and processed 1,500+ Urdu news articles; achieved 91% accuracy.
 
-  - [cite_start]title: Technical Skills [cite: 14]
+  - title: Technical Skills
     layout: text
     content: |
-      **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]  
-      **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]  
-      **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]
+      **Front-End:** React.js, React Native, HTML, CSS, JS/TS
+      **Back-End:** Python, Java, C/C++, MongoDB, Oracle
+      **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace
 
-  - [cite_start]title: A Little More About Me [cite: 58]
+  - title: A Little More About Me
     layout: text
     content: |
-      - **Language Learning:** Currently learning German[cite: 61].
-      - **Leadership:** Projects involving HBL and ASK Development[cite: 59].
+      - **Language Learning:** Currently learning German.
+      - **Leadership:** Projects involving HBL and ASK Development.
