@@ -2,102 +2,110 @@
 repository: friedchikhan/Resume
 url: https://friedchikhan.github.io
 baseurl: /Resume
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Muhammad Faizan Ali Khan
-title: Senior Computer Science Student | Aspiring Scrum Master
+title: BS Computer Science Student | Aspiring Scrum Master
 email: faizanalikhan10@outlook.com
-[cite_start]phone: "+92 3035561222" [cite: 24]
-[cite_start]website: https://linkedin.com/in/m-faizanalikhan [cite: 24]
+phone: "+92 3035561222"
+website: https://www.linkedin.com/in/m-faizanalikhan/
 
-# Dark Mode
-darkmode: true
+# Dark Mode (true/false/never)
+darkmode: false
 
 # Social links
-[cite_start]github_username: friedchikhan [cite: 24]
-[cite_start]linkedin_username: m-faizanalikhan [cite: 24]
+github_username: friedchikhan
+linkedin_username: m-faizanalikhan
 
 # Additional icon links
 additional_links:
   - title: GitHub
     icon: fab fa-github
-    [cite_start]url: https://github.com/friedchikhan [cite: 24]
+    url: https://github.com/friedchikhan/
   - title: LinkedIn
     icon: fab fa-linkedin
-    [cite_start]url: https://linkedin.com/in/m-faizanalikhan [cite: 24]
+    url: https://www.linkedin.com/in/m-faizanalikhan/
 
 # About Section
-[cite_start]about_title: Professional Summary [cite: 12]
+about_title: Professional Summary
 about_profile_image: images/profile.jpg
 about_content: |
-  Senior Computer Science student at **LUMS** (8th Semester) with a strong technical background in AI/ML and Full-Stack Development[cite: 26, 27]. Experienced in building scalable solutions like **IQueue** and automated financial auditing tools[cite: 34, 44]. Currently transitioning into **Agile Management** with a focus on **Scrum Master** roles.
+  Senior Computer Science student at **LUMS** (8th Semester) with a focus on Software Engineering and AI/ML[cite: 26, 27]. Experienced in building scalable solutions like **IQueue** and automated financial auditing tools[cite: 34, 44]. 
+  
+  Currently seeking to leverage a strong technical background to transition into **Agile Management** and **Scrum Master** roles.
 
 content:
-  - [cite_start]title: Education [cite: 13, 25]
+  - title: Education
     layout: list
     content:
       - layout: top-right
-        [cite_start]title: Lahore University of Management Sciences (LUMS) [cite: 26]
-        [cite_start]sub_title: BS in Computer Science [cite: 27]
-        [cite_start]caption: Expected 2026 [cite: 31]
+        title: Lahore University of Management Sciences (LUMS), Lahore, Pakistan
+        sub_title: BS in Computer Science (Senior, 8th Semester)
+        caption: Expected 2026
         description: |
-          Senior, 8th Semester student[cite: 27]. Focused on Software Engineering, AI, and Data Science[cite: 57].
+          Current focus on final year projects and advanced CS coursework[cite: 27, 31].
 
-  - [cite_start]title: Professional Experience [cite: 16, 28]
+  - title: Professional Experience
     layout: list
     content:
       - layout: right
-        [cite_start]title: NetSol Technologies [cite: 29]
-        [cite_start]sub_title: AI/ML Intern [cite: 30]
-        [cite_start]caption: Summer 2025 [cite: 32]
+        title: NetSol Technologies
+        sub_title: AI/ML Intern
+        caption: Summer 2025
         description: |
-          - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB[cite: 33].
-          - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing[cite: 34].
-          - Developed Python pipelines to extract, structure, and validate financial data[cite: 35].
+          - Built a FastAPI + LangChain RAG chatbot integrated with MongoDB and a ReAct agent[cite: 33].
+          - Designed YAML workflows for CrewAI multi-agent system to automate financial auditing (KPI, P&L, cash flow)[cite: 34].
+          - Developed Python pipelines to extract, structure, and validate financial data against ground-truth sources[cite: 35].
       - layout: right
-        [cite_start]title: Blutech Consulting [cite: 36]
-        [cite_start]sub_title: Data Analyst Intern [cite: 37]
-        [cite_start]caption: 2025 [cite: 39]
+        title: Blutech Consulting
+        sub_title: Data Analyst Intern
+        caption: 2025
         description: |
-          - Designed and optimized SQL queries, pipelines, and dashboards[cite: 40].
-          - Conducted research on EdTech, FinTech, and AI adoption in Pakistan and the Gulf[cite: 41].
+          - Designed and optimized SQL queries, pipelines, and dashboards to support data-driven insights[cite: 40].
+          - Conducted research on EdTech, HealthTech, FinTech, and InsurTech with focus on AI/ML adoption[cite: 41].
+          - Mapped strategies for innovation using R&D, open-source tools, and global consulting best practices[cite: 42].
 
-  - [cite_start]title: Projects [cite: 15, 43]
+  - title: Projects
     layout: list
     content:
       - layout: left
-        [cite_start]title: IQueue - Virtual Queue & Appointment System [cite: 44]
-        [cite_start]sub_title: React Native, Node.js, Firebase, MongoDB [cite: 45]
-        caption: 2026
+        title: IQueue - Virtual Queue & Appointment System
+        sub_title: React Native, Node.js, Firebase
+        caption: Sep 2025 - Present
         description: |
-          - Developing a fintech-integrated virtual queuing platform for the Pakistani market featuring real-time notifications and secure payment handling[cite: 46].
+          - Developing a fintech-integrated virtual queuing platform for the Pakistani market[cite: 45, 46].
+          - Implemented real-time notifications and secure payment handling to optimize business flow[cite: 46].
       - layout: left
-        [cite_start]title: Urdu News Classification Pipeline [cite: 47]
-        [cite_start]sub_title: Python, NLP, ML [cite: 47]
+        title: Classification of Urdu News Articles
+        sub_title: Python, NLP, ML
         description: |
-          - Scraped and processed 1,500+ Urdu news articles; achieved 91% accuracy[cite: 47, 48].
+          - Scraped and processed 1,500+ Urdu news articles; trained classifiers achieving up to 91% accuracy[cite: 47, 48].
+          - Applied tokenization, stemming, lemmatization, and stopword removal[cite: 48].
       - layout: left
-        [cite_start]title: AI-Powered Tutor Platform for LUMS [cite: 51]
-        [cite_start]sub_title: AI, NLP, React, Node.js, Oracle [cite: 51]
+        title: AI-Powered Tutor Platform for LUMS
+        sub_title: AI, NLP, React, Node.js, Oracle
         description: |
-          - Developed an AI chatbot with contextual memory and real-time WebSocket messaging[cite: 51, 52].
+          - Developed an AI chatbot with contextual memory for adaptive learning[cite: 51].
+          - Implemented real-time WebSocket messaging and full-stack architecture[cite: 52].
 
-  - [cite_start]title: Technical Skills [cite: 14, 53]
+  - title: Technical Skills
     layout: text
     content: |
       **Front-End:** React.js, React Native, HTML, CSS, JS/TS [cite: 54]  
       **Back-End:** Python, Java, C/C++, MongoDB, Oracle [cite: 55]  
       **Libraries:** Pandas, NumPy, TensorFlow, PyTorch, HuggingFace [cite: 56]  
-      **Concepts:** Machine Learning, NLP, Agile/Scrum, Data Structures [cite: 57]
+      **Concepts:** Machine Learning, NLP, Algorithms, Data Structures [cite: 57]
 
-  - [cite_start]title: Interests [cite: 58]
+  - title: A Little More About Me
     layout: text
     content: |
-      - Learning **German** as a new language[cite: 61].
-      - Leadership and decision-making from projects on HBL and ASK Development[cite: 59].
+      - **Language Learning:** Currently learning German as a new language[cite: 61].
+      - **Leadership:** Developed strong decision-making skills through projects on HBL and ASK Development[cite: 59].
+      - **Research:** Experienced in feasibility analysis, including nuclear energy studies[cite: 60].
 
 # Footer
 footer_show_references: false
