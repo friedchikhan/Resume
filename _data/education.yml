@@ -1,9 +1,6 @@
-# Education Template
-- layout: left
-  name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
-    Description of qualification
+- [cite_start]university: Lahore University of Management Sciences (LUMS) [cite: 26]
+  [cite_start]degree: BS in Computer Science [cite: 27]
+  [cite_start]duration: Senior, 8th Semester (Expected 2026) [cite: 27, 31]
+  [cite_start]location: Lahore, Pakistan [cite: 24]
+  description: 
+    - [cite_start]Focused on Software Engineering, AI, and Data Science. [cite: 12]
