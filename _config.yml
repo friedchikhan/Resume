@@ -1,98 +1,53 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: friedchikan/resume # Update this if your repo name is different
+# favicon: images/favicon.ico
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+[cite_start]name: Muhammad Faizan Ali Khan [cite: 23]
+[cite_start]title: Senior Computer Science Student [cite: 27]
+[cite_start]email: faizanalikhan10@outlook.com [cite: 24]
+[cite_start]phone: "+92 3035561222" [cite: 24]
 
 # Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+darkmode: true
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+- title: LinkedIn
+  icon: fa-linkedin
+  [cite_start]url: https://linkedin.com/in/m-faizanalikhan [cite: 24]
+- title: GitHub
+  icon: fa-github
+  [cite_start]url: https://github.com/friedchikan [cite: 24]
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+about_profile_image: images/profile.jpg
+about_content: |
+  I am a senior Computer Science student at **LUMS** [cite: 26, 27] with a focus on **Software Engineering and AI/ML**[cite: 12]. I have a proven track record of developing end-to-end solutions, from AI-powered chatbots to complex virtual queuing systems[cite: 33, 44].
+  
+  [cite_start]Currently, I am looking to leverage my technical background to transition into **Agile Management and Scrum Master roles**[cite: 12].
 
 # Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+# (Note: For this specific theme, project details usually go in a separate _data/projects.yml file, 
+# but if the theme uses this config, you can list them here.)
 
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
-
-# Education Section
-# education_title: Education #(Use this to override about education section title)
-
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+# More Section (Skills & Interests)
+more_title: Skills & Interests
+more_content: |
+  ### Technical Skills [cite: 14]
+  - **Languages:** Python, Java, C/C++, SQL (Oracle), JS/TS [cite: 54, 55]
+  - **Frameworks:** React.js, React Native, Node.js, FastAPI, LangChain [cite: 33, 54]
+  - **Libraries:** TensorFlow, PyTorch, Pandas, NumPy [cite: 56]
+  
+  ### Interests [cite: 58]
+  - [cite_start]Learning **German** [cite: 61]
+  - [cite_start]Leadership and decision-making [cite: 59]
 
 # Footer
 footer_show_references: true
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-sass:
-  sass_dir: _sass
-  style: compressed
+remote_theme: sproogen/modern-resume-theme
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
