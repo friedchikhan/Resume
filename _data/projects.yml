@@ -1,14 +1,14 @@
-- [cite_start]title: IQueue [cite: 44]
-  description: Virtual Queue & Appointment System designed for the Pakistani market. [cite_start]Features real-time notifications and secure payment handling to optimize business flow. [cite: 44, 46]
-  [cite_start]technologies: React Native, Node.js, Firebase [cite: 45]
-  [cite_start]link: https://github.com/friedchikan [cite: 24]
+- title: IQueue
+  [cite_start]description: Developing a fintech-integrated virtual queuing platform for the Pakistani market featuring real-time notifications and secure payment handling[cite: 44, 46].
+  technologies: React Native, Node.js, Firebase
+  link: https://github.com/friedchikan
 
-- [cite_start]title: Urdu News Classification Pipeline [cite: 47]
-  [cite_start]description: Scraped and processed 1,500+ Urdu news articles; trained classifiers achieving up to 91% accuracy using NLP techniques like tokenization and stemming. [cite: 47, 48]
-  [cite_start]technologies: Python, NLP, ML [cite: 47]
-  [cite_start]link: https://github.com/friedchikan [cite: 24]
+- title: Urdu News Classification Pipeline
+  [cite_start]description: Scraped and processed 1,500+ Urdu news articles; trained classifiers achieving up to 91% accuracy[cite: 47, 48].
+  technologies: Python, NLP, ML
+  link: https://github.com/friedchikan
 
-- [cite_start]title: AI-Powered Tutor Platform [cite: 51]
-  [cite_start]description: Developed an AI chatbot with contextual memory for adaptive learning at LUMS, featuring real-time WebSocket messaging. [cite: 51, 52]
-  [cite_start]technologies: AI, NLP, React, Node.js, Oracle [cite: 51]
-  [cite_start]link: https://github.com/friedchikan [cite: 24]
+- title: AI-Powered Tutor Platform
+  [cite_start]description: Developed an AI chatbot with contextual memory for adaptive learning; implemented real-time WebSocket messaging[cite: 51, 52].
+  technologies: AI, NLP, React, Node.js, Oracle
+  link: https://github.com/friedchikan
